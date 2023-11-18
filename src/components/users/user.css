@@ -1,0 +1,16 @@
+.users-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+@media screen and (max-width: 900px) {
+    .users-section {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .users-section {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }

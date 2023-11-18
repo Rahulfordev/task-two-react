@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Alice",
+    "avatar": "https://picsum.photos/200/300?image=1027",
+    "bio": "A passionate and creative individual with a love for technology and design."
+  },
+  {
+    "name": "Bob",
+    "avatar": "https://picsum.photos/200/300?image=1005",
+    "bio": "An experienced software engineer with a focus on building scalable and reliable systems."
+  },
+  {
+    "name": "Charlie",
+    "avatar": "https://picsum.photos/200/300?image=1012",
+    "bio": "A talented artist with a passion for creating beautiful and meaningful works of art."
+  },
+  {
+    "name": "David",
+    "avatar": "https://picsum.photos/200/300?image=884",
+    "bio": "A motivated and results-driven entrepreneur with a knack for business development."
+  },
+  {
+    "name": "Emily",
+    "avatar": "https://picsum.photos/200/300?image=838",
+    "bio": "A compassionate and empathetic individual with a passion for helping others."
+  },
+  {
+    "name": "Frank",
+    "avatar": "https://picsum.photos/200/300?image=1016",
+    "bio": "A knowledgeable and experienced teacher with a gift for inspiring and motivating students."
+  }
+]
