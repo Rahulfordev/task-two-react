@@ -1,5 +1,6 @@
-/* eslint-disable react/prop-types */
-const UserList = ({user:{name, avatar, bio}}) => {
+/* eslint-disable react/prop-types */ 
+const UserList = ({ user: { name, avatar, bio } }) => {
+  console.log(avatar);
   return (
     <div className="user__container">
       <img src={avatar} alt="user-image" />
@@ -8,7 +9,7 @@ const UserList = ({user:{name, avatar, bio}}) => {
         <p className="user__bio">{bio}</p>
       </div>
     </div>
-  )
+  );
 };
 
 export default UserList;

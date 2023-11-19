@@ -1,16 +1,35 @@
+img {
+  height: auto;
+  width: 50%;
+}
+
 .users-section {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.user__container {
+  padding: 15px;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 15px 50px rgba(0, 0, 0, 0.35);
+  color: black;
+}
+
+.user__bio {
+  color: #4e4545;
+  max-width: 23rem;
 }
 
 @media screen and (max-width: 900px) {
-    .users-section {
-      grid-template-columns: repeat(2, 1fr);
-    }
+  .users-section {
+    grid-template-columns: repeat(2, 1fr);
   }
-  
-  @media screen and (max-width: 600px) {
-    .users-section {
-      grid-template-columns: repeat(1, 1fr);
-    }
+}
+
+@media screen and (max-width: 600px) {
+  .users-section {
+    grid-template-columns: repeat(1, 1fr);
   }
+}
